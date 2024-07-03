@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="H/CPP">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="H/CPP\Scene">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="H/CPP\Simulator">
+      <UniqueIdentifier>{81ad73a4-ac51-4f4a-a50b-ae9e092341ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H/CPP\Layout">
+      <UniqueIdentifier>{2b03a39a-dcda-4163-b378-3b68182b8b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H/CPP\OpenCCD">
+      <UniqueIdentifier>{d116ad17-9c76-43df-999d-3c7f214159d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H/CPP\OpenCCD\Geometry">
+      <UniqueIdentifier>{b3e81c09-0db6-47e8-b686-15022b0dc530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H/CPP\Math">
+      <UniqueIdentifier>{50e717bb-56d8-4b09-899d-c8c649b7a6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H/CPP\OpenCCD\Utility">
+      <UniqueIdentifier>{4a429138-a5af-49f0-a0ef-0680065e7000}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>H/CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Object.cpp">
+      <Filter>H/CPP\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator\ClothSimulator.cpp">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator\SimulatorInit.cpp">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator\TriangularMesh.cpp">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="layout\Parameter.cpp">
+      <Filter>H/CPP\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator\TimeIntegrator.cpp">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\Geometry\aabb.cpp">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\Geometry\aap.cpp">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\Geometry\kDOP.cpp">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\Utility\timer.c">
+      <Filter>H/CPP\OpenCCD\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\Utility\timing.cpp">
+      <Filter>H/CPP\OpenCCD\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\BVH.cpp">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\BVH_Node.cpp">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\CCD.cpp">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\CCD_Object.cpp">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCCD\CCD_Output.cpp">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\Camera.h">
+      <Filter>H/CPP\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Light.h">
+      <Filter>H/CPP\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Object.h">
+      <Filter>H/CPP\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator\ClothSimulator.h">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator\TriangularMesh.h">
+      <Filter>H/CPP\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="layout\Parameter.h">
+      <Filter>H/CPP\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\interpolation.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrix.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrix3.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrix4.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrixN.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrixS.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\performance.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\quaternion.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\randomgen.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Util.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector2.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector3.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector4.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vectorN.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\aabb.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\aap.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\box.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\fast_acos.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\forceline.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\kDOP.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\linef.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\planef.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\vec3f.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Geometry\vec4d.h">
+      <Filter>H/CPP\OpenCCD\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Utility\ccd_vf.h">
+      <Filter>H/CPP\OpenCCD\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Utility\timer.h">
+      <Filter>H/CPP\OpenCCD\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\Utility\timing.h">
+      <Filter>H/CPP\OpenCCD\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\BVH.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\BVH_Node.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\CCD.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\CCD_Object.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\CCD_Output.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCCD\typeDef.h">
+      <Filter>H/CPP\OpenCCD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\box3.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\box.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\box2.h">
+      <Filter>H/CPP\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

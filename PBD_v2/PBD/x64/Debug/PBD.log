@@ -1,0 +1,185 @@
+﻿  main.cpp
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\Util.h(47,31): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\Util.h(48,27): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Scene\Camera.h(220,11): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Scene\Camera.h(221,11): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\TriangularMesh.h(18,41): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\TriangularMesh.h(19,67): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\aabb.h(9,1): warning C4005: 'MAX': 매크로 재정의
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\kDOP.h(7,1):
+  'MAX'의 이전 정의를 참조하십시오.
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\aabb.h(10,1): warning C4005: 'MIN': 매크로 재정의
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\kDOP.h(8,1):
+  'MIN'의 이전 정의를 참조하십시오.
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\main.cpp(44,34): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15): warning C4244:             T=float
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15): warning C4244:         ]
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(265,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\GML\Desktop\PBD_v2\PBD\Scene\Light.h(66,14):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Quaternion<float>'에 대한 참조를 확인하세요.
+  	C:\Users\GML\Desktop\PBD_v2\PBD\Math\quaternion.h(243,95):
+  	클래스 템플릿 멤버 함수 'Quaternion<float>::Quaternion(const Vector3<float> &,const Vector3<float> &)'을(를) 컴파일하는 중입니다.
+  		C:\Users\GML\Desktop\PBD_v2\PBD\Scene\Camera.h(246,22):
+  		'CCamera::rotate'에서 'Quaternion<float>::Quaternion'에 대한 첫 번째 참조를 확인하세요.
+  
+  ClothSimulator.cpp
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\Util.h(47,31): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Math\Util.h(48,27): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\TriangularMesh.h(18,41): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\TriangularMesh.h(19,67): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\aabb.h(9,1): warning C4005: 'MAX': 매크로 재정의
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\kDOP.h(7,1):
+  'MAX'의 이전 정의를 참조하십시오.
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\aabb.h(10,1): warning C4005: 'MIN': 매크로 재정의
+  (소스 파일 'Simulator/ClothSimulator.cpp'을(를) 컴파일하는 중)
+  C:\Users\GML\Desktop\PBD_v2\PBD\OpenCCD\Geometry\kDOP.h(8,1):
+  'MIN'의 이전 정의를 참조하십시오.
+  
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(45,32): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(45,41): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(45,50): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(46,31): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(46,38): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(46,45): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(47,27): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(47,37): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(47,47): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(47,57): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(48,28): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(58,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,86): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,86): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,86): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,86): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,86): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,61): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,61): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,61): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,61): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,61): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,36): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,36): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,36): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,36): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(60,36): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,86): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,86): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,86): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,86): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,86): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,61): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,61): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,61): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,61): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,61): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,36): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,36): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,36): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,36): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(61,36): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,86): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,86): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,86): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,86): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,86): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,61): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,61): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,61): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,61): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,61): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,36): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,36): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,36): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,36): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(62,36): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(77,20): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(77,15): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(78,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,44): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,44): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,44): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,44): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,44): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,33): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,33): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,33): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,33): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,33): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,22): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,22): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,22): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,22): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(79,22): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(86,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,74): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,74): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,74): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,74): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,74): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,53): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,53): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,53): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,53): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,53): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,32): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,32): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,32): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,32): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(87,32): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,74): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,74): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,74): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,74): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,74): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,53): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,53): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,53): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,53): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,53): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,32): warning C4244: '인수': 'T'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,32): warning C4244:         with
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,32): warning C4244:         [
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,32): warning C4244:             T=double
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(88,32): warning C4244:         ]
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(127,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(136,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(145,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(154,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(167,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(173,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(233,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(260,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\GML\Desktop\PBD_v2\PBD\Simulator\ClothSimulator.cpp(269,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  PBD.vcxproj -> C:\Users\GML\Desktop\PBD_v2\x64\Debug\PBD.exe
