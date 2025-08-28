@@ -37,6 +37,8 @@ https://github.com/user-attachments/assets/adac0578-1fb2-4b76-8c8d-6888915881c6
 
 For further informations, refer to the original papers or the presentation files [PBD_review_240118.pdf](./PBD_review_240118.pdf) and [XPBD_review_240207.pdf](./XPBD_review_240207.pdf).
 
+Research and study archive for the project can be found on [this site](https://researchandstudy.notion.site/Cloth-Simulation-cb04296d17d346e0b63926a6b159f2e6?pvs=143).
+
 ## ▶️ How to Run
 
 ### Requirements
