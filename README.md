@@ -15,11 +15,11 @@ The project is done with the help of [Graphics and Media Lab](http://graphics.sn
 
 ### PBD implementation
 
-![Image](https://github.com/user-attachments/assets/406e113c-ff4e-494d-aad0-b13a7eee7266)
+<img width="1280" height="720" alt="PBD" src="https://github.com/user-attachments/assets/32a57f58-5f8d-424e-be43-cf1d7aabfeda" />
 
 ### XPBD implementation
 
-![Image](https://github.com/user-attachments/assets/2f44e207-767e-4a2f-8973-336ce9ca3b6e6)
+<img width="1280" height="720" alt="XPBD" src="https://github.com/user-attachments/assets/91b9fb59-965e-49b5-bd4d-1e7ae3c81738" />
 
 ### Object example details
 
@@ -31,7 +31,7 @@ The project is done with the help of [Graphics and Media Lab](http://graphics.sn
 
 ## 🎥 Demo
 
-HERE
+https://github.com/user-attachments/assets/adac0578-1fb2-4b76-8c8d-6888915881c6
 
 ## 🔍 Technical Details
 
